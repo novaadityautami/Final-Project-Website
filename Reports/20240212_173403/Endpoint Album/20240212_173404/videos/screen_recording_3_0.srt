@@ -1,0 +1,16 @@
+1
+00:00:00,022 --> 00:00:00,944
+1. response = sendRequest(findTestObject("Album - Updating"))
+
+2
+00:00:00,944 --> 00:00:00,964
+5. verifyElementPropertyValue(response, "title", "selamat")
+
+3
+00:00:00,964 --> 00:00:00,980
+9. verifyElementPropertyValue(response, "body", "nyepi")
+
+4
+00:00:00,980 --> 00:00:01,001
+13. verifyElementPropertyValue(response, "userId", "1")
+

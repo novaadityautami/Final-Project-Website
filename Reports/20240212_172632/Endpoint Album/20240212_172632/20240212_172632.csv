@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Endpoint Album,,,,12-02-2024 17:26:33,12-02-2024 17:26:43,10.329s,PASSED
+,,,,,,,
+Test Cases/Album - All resources,,,,12-02-2024 17:26:33,12-02-2024 17:26:37,4.276s,PASSED
+"response = sendRequest(findTestObject(""Album - All resources""))",,,,12-02-2024 17:26:34,12-02-2024 17:26:35,1.576s,PASSED
+"for ([i = 1, i < 10, (i++)])",,,,12-02-2024 17:26:35,12-02-2024 17:26:35,0.200s,PASSED
+Video,,,,12-02-2024 17:26:37,12-02-2024 17:26:37,0.001s,PASSED
+,,,,,,,
+Test Cases/Album - Resources,,,,12-02-2024 17:26:37,12-02-2024 17:26:40,3.003s,PASSED
+"response = sendRequest(findTestObject(""Album - Resources""))",,,,12-02-2024 17:26:38,12-02-2024 17:26:38,0.877s,PASSED
+"verifyElementPropertyValue(response, ""title"", ""lagi nyoba"")",,,,12-02-2024 17:26:38,12-02-2024 17:26:38,0.019s,PASSED
+"verifyElementPropertyValue(response, ""body"", ""hai"")",,,,12-02-2024 17:26:38,12-02-2024 17:26:38,0.014s,PASSED
+"verifyElementPropertyValue(response, ""userId"", ""2"")",,,,12-02-2024 17:26:38,12-02-2024 17:26:38,0.013s,PASSED
+Video,,,,12-02-2024 17:26:40,12-02-2024 17:26:40,0.001s,PASSED
+,,,,,,,
+Test Cases/Album - Updating,,,,12-02-2024 17:26:40,12-02-2024 17:26:43,2.951s,PASSED
+"response = sendRequest(findTestObject(""Album - Updating""))",,,,12-02-2024 17:26:41,12-02-2024 17:26:41,0.818s,PASSED
+"verifyElementPropertyValue(response, ""title"", ""selamat"")",,,,12-02-2024 17:26:41,12-02-2024 17:26:41,0.011s,PASSED
+"verifyElementPropertyValue(response, ""body"", ""nyepi"")",,,,12-02-2024 17:26:41,12-02-2024 17:26:41,0.013s,PASSED
+"verifyElementPropertyValue(response, ""userId"", ""1"")",,,,12-02-2024 17:26:41,12-02-2024 17:26:41,0.016s,PASSED
+Video,,,,12-02-2024 17:26:43,12-02-2024 17:26:43,0.001s,PASSED

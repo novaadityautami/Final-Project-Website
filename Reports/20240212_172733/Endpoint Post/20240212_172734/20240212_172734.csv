@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Endpoint Post,,,,12-02-2024 17:27:36,12-02-2024 17:28:04,28.044s,FAILED
+,,,,,,,
+Test Cases/All resources - post,,,,12-02-2024 17:27:44,12-02-2024 17:27:46,2.186s,FAILED
+"response = sendRequest(findTestObject(""All Resources""))",,,,12-02-2024 17:27:44,12-02-2024 17:27:44,0.152s,PASSED
+"verifyElementPropertyValue(response, ""userId"", ""2"")",,,,12-02-2024 17:27:44,12-02-2024 17:27:44,0.012s,FAILED
+Video,,,,12-02-2024 17:27:46,12-02-2024 17:27:46,0.001s,PASSED
+,,,,,,,
+Test Cases/Resources - post,,,,12-02-2024 17:27:46,12-02-2024 17:27:50,3.802s,PASSED
+"sendRequest(findTestObject(""Resources""))",,,,12-02-2024 17:27:46,12-02-2024 17:27:47,0.838s,PASSED
+"response = sendRequest(findTestObject(""Resources""))",,,,12-02-2024 17:27:47,12-02-2024 17:27:48,0.848s,PASSED
+"verifyElementPropertyValue(response, ""title"", ""testing"")",,,,12-02-2024 17:27:48,12-02-2024 17:27:48,0.013s,PASSED
+"verifyElementPropertyValue(response, ""body"", ""hola semua"")",,,,12-02-2024 17:27:48,12-02-2024 17:27:48,0.012s,PASSED
+"verifyElementPropertyValue(response, ""userId"", ""1"")",,,,12-02-2024 17:27:48,12-02-2024 17:27:48,0.012s,PASSED
+"verifyElementPropertyValue(response, ""id"", ""101"")",,,,12-02-2024 17:27:48,12-02-2024 17:27:48,0.013s,PASSED
+Video,,,,12-02-2024 17:27:50,12-02-2024 17:27:50,0.001s,PASSED
+,,,,,,,
+Test Cases/Updating - post,,,,12-02-2024 17:27:58,12-02-2024 17:28:01,2.471s,FAILED
+"response = sendRequest(findTestObject(""Updating""))",,,,12-02-2024 17:27:58,12-02-2024 17:27:59,0.403s,PASSED
+"verifyElementPropertyValue(response, ""userId"", ""2"")",,,,12-02-2024 17:27:59,12-02-2024 17:27:59,0.011s,FAILED
+Video,,,,12-02-2024 17:28:01,12-02-2024 17:28:01,0.000s,PASSED
+,,,,,,,
+Test Cases/Delete - post,,,,12-02-2024 17:28:01,12-02-2024 17:28:04,2.961s,PASSED
+"sendRequest(findTestObject(""Deleting"", [""id"":""3""]))",,,,12-02-2024 17:28:01,12-02-2024 17:28:02,0.882s,PASSED
+Video,,,,12-02-2024 17:28:04,12-02-2024 17:28:04,0.001s,PASSED

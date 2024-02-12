@@ -1,0 +1,44 @@
+1
+00:00:00,112 --> 00:00:01,692
+1. response = sendRequest(findTestObject("Album - All resources"))
+
+2
+00:00:01,697 --> 00:00:01,699
+5. for ([i = 1, i < 10, (i++)])
+
+3
+00:00:01,700 --> 00:00:01,749
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "2")
+
+4
+00:00:01,749 --> 00:00:01,765
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "2")
+
+5
+00:00:01,765 --> 00:00:01,790
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "2")
+
+6
+00:00:01,790 --> 00:00:01,815
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "2")
+
+7
+00:00:01,815 --> 00:00:01,828
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "2")
+
+8
+00:00:01,829 --> 00:00:01,843
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "2")
+
+9
+00:00:01,843 --> 00:00:01,858
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "2")
+
+10
+00:00:01,858 --> 00:00:01,879
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "2")
+
+11
+00:00:01,879 --> 00:00:01,899
+1. verifyElementPropertyValue(response, "[" + i + "].userId", "2")
+

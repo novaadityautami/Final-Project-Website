@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Endpoint Post,,,,12-02-2024 17:33:21,12-02-2024 17:33:34,12.661s,PASSED
+,,,,,,,
+Test Cases/All resources - post,,,,12-02-2024 17:33:21,12-02-2024 17:33:25,3.574s,PASSED
+"response = sendRequest(findTestObject(""All Resources""))",,,,12-02-2024 17:33:22,12-02-2024 17:33:23,0.867s,PASSED
+"verifyElementPropertyValue(response, ""userId"", ""1"")",,,,12-02-2024 17:33:23,12-02-2024 17:33:23,0.055s,PASSED
+"verifyElementPropertyValue(response, ""id"", ""2"")",,,,12-02-2024 17:33:23,12-02-2024 17:33:23,0.023s,PASSED
+"verifyElementPropertyValue(response, ""title"", ""qui est esse"")",,,,12-02-2024 17:33:23,12-02-2024 17:33:23,0.015s,PASSED
+"verifyElementPropertyValue(response, ""body"", ""est rerum tempore vitae
+sequi sint nihil reprehenderit dolor beatae ea dolores neque
+fugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis
+qui aperiam non debitis possimus qui neque nisi nulla"")",,,,12-02-2024 17:33:23,12-02-2024 17:33:23,0.018s,PASSED
+Video,,,,12-02-2024 17:33:25,12-02-2024 17:33:25,0.001s,PASSED
+,,,,,,,
+Test Cases/Resources - post,,,,12-02-2024 17:33:25,12-02-2024 17:33:29,4.030s,PASSED
+"sendRequest(findTestObject(""Resources""))",,,,12-02-2024 17:33:25,12-02-2024 17:33:26,0.939s,PASSED
+"response = sendRequest(findTestObject(""Resources""))",,,,12-02-2024 17:33:26,12-02-2024 17:33:27,0.916s,PASSED
+"verifyElementPropertyValue(response, ""title"", ""testing"")",,,,12-02-2024 17:33:27,12-02-2024 17:33:27,0.016s,PASSED
+"verifyElementPropertyValue(response, ""body"", ""hola semua"")",,,,12-02-2024 17:33:27,12-02-2024 17:33:27,0.020s,PASSED
+"verifyElementPropertyValue(response, ""userId"", ""1"")",,,,12-02-2024 17:33:27,12-02-2024 17:33:27,0.023s,PASSED
+"verifyElementPropertyValue(response, ""id"", ""101"")",,,,12-02-2024 17:33:27,12-02-2024 17:33:27,0.015s,PASSED
+Video,,,,12-02-2024 17:33:29,12-02-2024 17:33:29,0.002s,PASSED
+,,,,,,,
+Test Cases/Updating - post,,,,12-02-2024 17:33:29,12-02-2024 17:33:31,2.490s,PASSED
+"response = sendRequest(findTestObject(""Updating""))",,,,12-02-2024 17:33:29,12-02-2024 17:33:29,0.362s,PASSED
+"verifyElementPropertyValue(response, ""userId"", ""1"")",,,,12-02-2024 17:33:29,12-02-2024 17:33:29,0.012s,PASSED
+"verifyElementPropertyValue(response, ""id"", ""1"")",,,,12-02-2024 17:33:29,12-02-2024 17:33:29,0.012s,PASSED
+"verifyElementPropertyValue(response, ""title"", ""pagi"")",,,,12-02-2024 17:33:29,12-02-2024 17:33:29,0.012s,PASSED
+"verifyElementPropertyValue(response, ""body"", ""hari"")",,,,12-02-2024 17:33:29,12-02-2024 17:33:29,0.015s,PASSED
+Video,,,,12-02-2024 17:33:31,12-02-2024 17:33:31,0.001s,PASSED
+,,,,,,,
+Test Cases/Delete - post,,,,12-02-2024 17:33:31,12-02-2024 17:33:34,2.488s,PASSED
+"sendRequest(findTestObject(""Deleting"", [""id"":""3""]))",,,,12-02-2024 17:33:31,12-02-2024 17:33:32,0.452s,PASSED
+Video,,,,12-02-2024 17:33:34,12-02-2024 17:33:34,0.001s,PASSED

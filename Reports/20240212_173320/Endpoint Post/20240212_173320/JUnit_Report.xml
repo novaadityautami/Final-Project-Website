@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Endpoint Post" time="12.661" tests="4" failures="0" errors="0">
+   <testsuite name="Endpoint Post" tests="4" failures="0" errors="0" time="12.661" skipped="0" timestamp="12-02-2024T17:33:21" hostname="admin - localhost" id="Test Suites/Endpoint Post">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/admin/git/Tugas-API 2/Reports/20240212_173320/Endpoint Post/20240212_173320"/>
+         <property name="logFiles" value="/Users/admin/git/Tugas-API 2/Reports/20240212_173320/Endpoint Post/20240212_173320/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+      </properties>
+      <testcase name="Test Cases/All resources - post" time="3.574" classname="Test Cases/All resources - post" status="PASSED">
+         <system-out><![CDATA[12-02-2024T17:33:21 - [TEST_CASE][PASSED] - Test Cases/All resources - post: Test Cases/All resources - post
+
+12-02-2024T17:33:22 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("All Resources")): Send request successfully
+
+12-02-2024T17:33:23 - [MESSAGE][INFO] - HAR: /Users/admin/git/Tugas-API 2/Reports/20240212_173320/Endpoint Post/20240212_173320/requests/main/0.har
+
+12-02-2024T17:33:23 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T17:33:23 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "userId", "1"): Verify element property value successfully
+
+12-02-2024T17:33:23 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:33:23 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "id", "2"): Verify element property value successfully
+
+12-02-2024T17:33:23 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:33:23 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "title", "qui est esse"): Verify element property value successfully
+
+12-02-2024T17:33:23 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:33:23 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "body", "est rerum tempore vitae
+sequi sint nihil reprehenderit dolor beatae ea dolores neque
+fugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis
+qui aperiam non debitis possimus qui neque nisi nulla"): Verify element property value successfully
+
+12-02-2024T17:33:23 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:33:25 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/All resources - post' .
+
+12-02-2024T17:33:25 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/All resources - post' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Resources - post" time="4.03" classname="Test Cases/Resources - post" status="PASSED">
+         <system-out><![CDATA[12-02-2024T17:33:25 - [TEST_CASE][PASSED] - Test Cases/Resources - post: Test Cases/Resources - post
+
+12-02-2024T17:33:25 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Resources")): Send request successfully
+
+12-02-2024T17:33:26 - [MESSAGE][INFO] - HAR: /Users/admin/git/Tugas-API 2/Reports/20240212_173320/Endpoint Post/20240212_173320/requests/main/1.har
+
+12-02-2024T17:33:26 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T17:33:26 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Resources")): Send request successfully
+
+12-02-2024T17:33:27 - [MESSAGE][INFO] - HAR: /Users/admin/git/Tugas-API 2/Reports/20240212_173320/Endpoint Post/20240212_173320/requests/main/2.har
+
+12-02-2024T17:33:27 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T17:33:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "title", "testing"): Verify element property value successfully
+
+12-02-2024T17:33:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:33:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "body", "hola semua"): Verify element property value successfully
+
+12-02-2024T17:33:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:33:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "userId", "1"): Verify element property value successfully
+
+12-02-2024T17:33:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:33:27 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "id", "101"): Verify element property value successfully
+
+12-02-2024T17:33:27 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:33:29 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Resources - post' .
+
+12-02-2024T17:33:29 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Resources - post' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Updating - post" time="2.49" classname="Test Cases/Updating - post" status="PASSED">
+         <system-out><![CDATA[12-02-2024T17:33:29 - [TEST_CASE][PASSED] - Test Cases/Updating - post: Test Cases/Updating - post
+
+12-02-2024T17:33:29 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Updating")): Send request successfully
+
+12-02-2024T17:33:29 - [MESSAGE][INFO] - HAR: /Users/admin/git/Tugas-API 2/Reports/20240212_173320/Endpoint Post/20240212_173320/requests/main/3.har
+
+12-02-2024T17:33:29 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T17:33:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "userId", "1"): Verify element property value successfully
+
+12-02-2024T17:33:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:33:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "id", "1"): Verify element property value successfully
+
+12-02-2024T17:33:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:33:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "title", "pagi"): Verify element property value successfully
+
+12-02-2024T17:33:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:33:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "body", "hari"): Verify element property value successfully
+
+12-02-2024T17:33:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T17:33:31 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Updating - post' .
+
+12-02-2024T17:33:31 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Updating - post' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete - post" time="2.488" classname="Test Cases/Delete - post" status="PASSED">
+         <system-out><![CDATA[12-02-2024T17:33:31 - [TEST_CASE][PASSED] - Test Cases/Delete - post: Test Cases/Delete - post
+
+12-02-2024T17:33:31 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Deleting", ["id":"3"])): Send request successfully
+
+12-02-2024T17:33:32 - [MESSAGE][INFO] - HAR: /Users/admin/git/Tugas-API 2/Reports/20240212_173320/Endpoint Post/20240212_173320/requests/main/4.har
+
+12-02-2024T17:33:32 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T17:33:34 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Delete - post' .
+
+12-02-2024T17:33:34 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Delete - post' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T17:33:21 - [TEST_SUITE][PASSED] - Endpoint Post: Test Cases/Delete - post]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

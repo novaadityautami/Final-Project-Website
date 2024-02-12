@@ -1,0 +1,8 @@
+1
+00:00:00,016 --> 00:00:00,923
+1. response = sendRequest(findTestObject("Updating"))
+
+2
+00:00:00,923 --> 00:00:00,936
+5. verifyElementPropertyValue(response, "userId", "2")
+

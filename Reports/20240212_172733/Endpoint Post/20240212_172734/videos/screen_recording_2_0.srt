@@ -1,0 +1,24 @@
+1
+00:00:00,015 --> 00:00:00,852
+1. sendRequest(findTestObject("Resources"))
+
+2
+00:00:00,853 --> 00:00:01,700
+5. response = sendRequest(findTestObject("Resources"))
+
+3
+00:00:01,700 --> 00:00:01,713
+9. verifyElementPropertyValue(response, "title", "testing")
+
+4
+00:00:01,713 --> 00:00:01,725
+13. verifyElementPropertyValue(response, "body", "hola semua")
+
+5
+00:00:01,726 --> 00:00:01,737
+17. verifyElementPropertyValue(response, "userId", "1")
+
+6
+00:00:01,738 --> 00:00:01,752
+21. verifyElementPropertyValue(response, "id", "101")
+
